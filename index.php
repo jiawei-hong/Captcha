@@ -64,6 +64,7 @@
                     $('#main').html(res);
                 })
 
+                ansCount = 0;
                 if(!$('#main').hasClass('active')){
                     var span = document.createElement('span');
                     $.get('./getans.php',function(res){
